@@ -24,12 +24,12 @@ export const metadata: Metadata = {
   authors: [{ name: 'QR Suite Team' }],
   creator: 'QR Suite',
   publisher: 'QR Suite',
-  metadataBase: new URL('https://qrsuite.dev'),
+  metadataBase: new URL('https://qrsuite.toolbay.site'),
   openGraph: {
     title: 'QR Suite — Professional QR Code & Barcode Generator',
     description:
       'Fast, customizable, and 100% client-side QR codes and barcodes for businesses, packaging, marketing, and menus.',
-    url: 'https://qrsuite.dev',
+    url: 'https://qrsuite.toolbay.site',
     siteName: 'QR Suite',
     locale: 'en_US',
     type: 'website',
@@ -68,4 +68,3 @@ export default function RootLayout({
     </html>
   );
 }
-
