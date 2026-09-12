@@ -1,0 +1,6 @@
+{
+  "name": "QR Suite",
+  "description": "Professional client-side QR code & barcode generator with custom styles, logo overlays, WiFi, vCard, Code128, and EAN export for small businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
