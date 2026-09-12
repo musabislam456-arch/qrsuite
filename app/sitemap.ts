@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { BLOG_POSTS } from '@/lib/blog-data';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://qrsuite.dev';
+  const baseUrl = 'https://qrsuite.toolbay.site';
 
   const blogUrls = BLOG_POSTS.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
