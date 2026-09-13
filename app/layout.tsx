@@ -33,13 +33,28 @@ export const metadata: Metadata = {
     siteName: 'QR Suite',
     locale: 'en_US',
     type: 'website',
+    images: [
+      {
+        url: '/opengraph-image',
+        width: 1200,
+        height: 630,
+        alt: 'QR Suite — Professional QR Code & Barcode Generator',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'QR Suite — Free QR Code & Barcode Generator',
     description:
       'High-res vector SVG & PNG QR codes with logos, custom colors, WiFi, vCards, Code 128 & EAN barcodes.',
+    images: ['/opengraph-image'],
   },
+  icons: {
+    icon: '/icon',
+    shortcut: '/icon',
+    apple: '/apple-icon',
+  },
+  manifest: '/manifest.webmanifest',
   robots: {
     index: true,
     follow: true,
